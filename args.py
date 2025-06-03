@@ -1,0 +1,21 @@
+experiment_num = 7  # change it every new experiment
+env_name = 'YOUR-ENV-NAME'
+checkpoint_path = "YOUR-CHECKPOINT-NAME-FOR-LOADING"
+directory = "YOUR-DIRECTORY"
+reward_mode = 3  # reward functions are explained in rewards.py
+T_episode = 1000 # length of the episode
+max_training_timesteps = int(1.5e6)   
+print_freq = T_episode * 10  #current reward logging frequency
+save_model_freq = int(1e5)     
+T_horizon = 5  # how many episodes are played with the last updated policy
+update_timestep = T_episode  * T_horizon 
+K_epochs = 10   # how many epoches to train the policy with the collected buffer         
+eps_clip = 0.15  
+g_lambda = 0.95           
+gamma = 0.99                
+lr= 0.00031      
+batch_size = 128 
+random_seed = 42 
+state_dim = 8 # observation dimension
+action_dim = 1 # action dimension
+
