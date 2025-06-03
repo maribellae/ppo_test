@@ -2,7 +2,7 @@
 Custom PPO algorithm trained for Cartpole Swing Up and Reaching Point Task in the MuJoCo environment. In each episode, the mass of the pendulum and the location of the target are randomly sampled.
 
 ## Trained Demo
-[![Trained Demo](ppo_test/demo.mp4)
+[Trained Demo](https://github.com/maribellae/ppo_test/blob/main/demo.mp4)
 
 ## Starting
 ```bash
