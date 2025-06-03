@@ -12,7 +12,7 @@ cd ppo_test
 
 ## Change arguments in args.py file
 ```python
-experiment_num = 7  # change it every new experiment
+experiment_num = 0  # change it every new experiment
 env_name = 'YOUR-ENV-NAME'
 checkpoint_path = "YOUR-CHECKPOINT-NAME-FOR-LOADING"  <--- can be changed to the path to trained_ppo.pth
 directory = "YOUR-DIRECTORY"
