@@ -9,7 +9,14 @@ https://github.com/user-attachments/assets/92ed3524-d7fe-4790-9384-34fc8a3be2b8
 git clone https://github.com/maribellae/ppo_test.git
 cd ppo_test
 ```
-Change arguments in args.py file
+
+## Change arguments in args.py file
+```python
+experiment_num = 7  # change it every new experiment
+env_name = 'YOUR-ENV-NAME'
+checkpoint_path = "YOUR-CHECKPOINT-NAME-FOR-LOADING"  <--- can be changed to the path to trained_ppo.pth
+directory = "YOUR-DIRECTORY"
+```
 
 ## For Training
 ```bash
